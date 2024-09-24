@@ -25,9 +25,15 @@ const ThreeComp = () => {
                     width="500"
                     height="370"
                     className="img-fluid rounded-1"
+                    data-aos = "fade-right"
+                    data-aos-duration="O"
+
                 />
                 <div className="ml-3 text-center flex-grow-1 lh-lg">
-                    <p className='text-center'>
+                    <p className='text-center'
+                        data-aos = "fade-left"
+
+                    >
                     Avec notre sélection de miels, découvrir des saveurs exquises n'a jamais été aussi simple.
                     Notre présentation vous permet d'explorer des variétés fascinantes sans distraction, 
                     tout en vous offrant une interface claire et intuitive. Profitez d'une expérience de découverte fluide,
@@ -38,7 +44,7 @@ const ThreeComp = () => {
 
             <div className="d-flex align-items-center gap-4 px-5">
                 <div className="ml-3 text-center flex-grow-1 lh-lg">
-                    <p>
+                    <p data-aos = "fade-left">
                     Découvrez un monde de possibilités avec notre miel,
                     où une multitude de saveurs authentiques vous attend.
                     Que vous rêviez de douceurs exotiques ou de plaisirs locaux,
@@ -53,6 +59,8 @@ const ThreeComp = () => {
                     width="500"
                     height="370"
                     className="img-fluid rounded-1"
+                    data-aos = "fade-right"
+                    data-aos-duration="500"
                 />
             </div>
 
@@ -63,9 +71,11 @@ const ThreeComp = () => {
                     width="500"
                     height="370"
                     className="img-fluid rounded-1"
+                    data-aos = "fade-right"
+                    data-aos-duration="100O"
                 />
                 <div className="ml-3 text-center flex-grow-1 lh-lg">
-                    <p className='text-center'>
+                    <p className='text-center' data-aos = "fade-left">
                     Profitez de voyages exceptionnels à des prix bas et abordables grâce à notre plateforme. 
                     Nous nous engageons à vous offrir des options économiques qui conviennent à tous les budgets, 
                     sans sacrifier la qualité. 

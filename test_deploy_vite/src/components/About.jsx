@@ -10,14 +10,17 @@ const BlogSection = () => {
     <div className="container my-5">
       <div className="row">
         {/* First Card */}
-        <div className="col-md-4 mb-4 d-flex">
+        <div className="col-md-4 mb-4 d-flex" data-aos = "fade-up"
+            >
           <div className="card flex-fill">
             <img 
               src={image4}
               className="card-img-top" 
               alt="Read More" 
             />
-            <div className="card-body">
+            <div className="card-body"
+            
+            >
               <h5 className="card-title">NOTRE HISTOIRE</h5>
               <p className="card-text">
                 Inspirés par le savoir-faire des apiculteurs, 
@@ -32,10 +35,12 @@ const BlogSection = () => {
         </div>
 
         {/* Second Card */}
-        <div className="col-md-4 mb-4 d-flex">
+        <div className="col-md-4 mb-4 d-flex" data-aos = "fade-up"
+            data-aos-delay="500">
           <div className="card flex-fill">
             <img 
               src={image5}
+              data-aos="fade-up"
               className="card-img-top" 
               alt="Interior Design" 
             />
@@ -52,7 +57,8 @@ const BlogSection = () => {
         </div>
 
         {/* Third Card */}
-        <div className="col-md-4 mb-4 d-flex">
+        <div className="col-md-4 mb-4 d-flex" data-aos = "fade-up"
+            data-aos-delay="1000">
           <div className="card flex-fill">
             <img 
               src={image6} 
